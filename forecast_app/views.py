@@ -19,13 +19,8 @@ def get_wind_direction(deg):
     return res
 
 
-def landing(request):
-        return render(request, 'landing.html')
-
-
 def error404(request):
     return render(request, 'error404.html')
-
 
 
 def check_existance_in_db(s_city):
